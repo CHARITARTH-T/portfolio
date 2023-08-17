@@ -1,0 +1,78 @@
+/* Reset some default styles */
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+}
+header {
+  background-color: #DAFFFB;
+  color: black;
+  text-align: center;
+  padding: 1rem 0;
+}
+body
+{
+     font-family: 'Montserrat', sans-serif;
+}
+/* Style the navigation menu */
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+nav ul li a:hover
+{
+     background-color: #BFEAF5;
+     color:black;
+     border-radius: 10%;
+}
+/* Style the sections */
+section {
+  padding: 2rem;
+}
+
+/* Style the portfolio projects */
+.project {
+  margin-bottom: 2rem;
+}
+
+.project img {
+  max-width: 100%;
+}
+
+/* Style the footer */
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #DAFFFB;
+  color: white;
+}
+.light
+{
+     background-color: #EFFFFD;;
+}
+.dark
+{
+     background-color: #EFFFFD;
+}
+.list-group-item:hover
+{
+     font-size: 1.2rem;
+}
+.pro:hover
+{
+     font-size: 1.1rem;
+}
+.hr 
+{
+     font-family: 'Sacramento', cursive;
+}
